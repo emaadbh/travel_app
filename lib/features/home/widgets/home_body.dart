@@ -19,9 +19,9 @@ class HomeBody extends StatelessWidget {
                 HomeHeader(
                   cartLength: context.read<HomeCubit>().cartProduct.length,
                 ),
-                SizedBox(height: 10),
-                HomeTitleListWidget(),
-                HomeContent(),
+                const SizedBox(height: 10),
+                const HomeTitleListWidget(),
+                const HomeContent(),
               ],
             );
           },
